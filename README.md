@@ -1,1 +1,1 @@
-# D3-Scatterploth-graph
+# D3-Scatterplot-graph
