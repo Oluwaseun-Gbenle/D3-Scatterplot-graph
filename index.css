@@ -1,0 +1,46 @@
+body{
+    background-color:#fff;
+    display:flex;
+    justify-content:center;
+  }
+  #container{
+   padding-left:120px;
+   background-color:#eeeeee;
+   -webkit-box-shadow:8px 10px 5px 0px #898888;
+   -moz-box-shadow:8px 10px 5px 0px #898888;
+   box-shadow:8px 10px 5px 0px #898888;
+   border:1px solid;
+   width:70%;
+   height:100%;
+   margin-top:30px;
+  }
+  p{
+    font-size:30px;
+    font-family:Arial;
+    text-align:center;
+    
+  }
+  #doping-box,
+  #nodoping-box{
+    width:20px;
+    height:20px;
+    background-color:red;
+    position:absolute;
+    right:400px;
+    top:250px;
+  }
+  #nodoping-box{
+    background-color:green;
+    right:400px;
+    top:280px;
+  }
+  #nodoping-text,
+  #doping-text{
+    position:absolute;
+    right:270px;
+    top:250px;
+  }
+  #nodoping-text{
+     top:280px; 
+     right:250px;
+  }
